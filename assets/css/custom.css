@@ -1,0 +1,25 @@
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.25rem;
+    margin-top: 2rem;
+    padding: 0 1rem;
+  }
+  
+  .photo-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+    object-fit: cover;
+    transition: transform 0.2s ease;
+  }
+  
+  .photo-grid img:hover {
+    transform: scale(1.03);
+  }
+  
+  body {
+    background-color: hotpink !important;
+  }
+  

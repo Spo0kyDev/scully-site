@@ -1,0 +1,77 @@
+title: "Scully 🐾"
+email:
+description: >-
+  Scully – Service Dog in Training
+
+minimal_mistakes_skin: default
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+# ✅ Tell Minimal Mistakes to load this file if it exists
+# NOTE: This is looking for: _includes/head_custom.html
+head_custom: head_custom
+
+markdown: kramdown
+search: true
+permalink: /:categories/:title/
+timezone: America/Chicago
+
+include:
+  - _pages
+  - _includes
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+author:
+  name   : "Scully"
+  avatar : "/assets/images/scully.jpg"
+  bio    : "Service Dog in Training."
+  links:
+    - label: "Handler: Sage"
+      icon: "fas fa-user-shield"
+      url: "https://spo0ky.dev"
+
+footer:
+  links:
+    - label: "Handler: Sage"
+      icon: "fas fa-user-shield"
+      url: "https://spo0ky.dev"
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      css: "custom"
+
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: false
+      related: false
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+sass:
+  style: compressed
+
+assets:
+  sources:
+    - assets/css

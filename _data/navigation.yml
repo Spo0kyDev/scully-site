@@ -1,0 +1,18 @@
+main:
+  - title: "Home"
+    url: /
+
+  - title: "Adventures"
+    url: /adventures/
+
+  - title: "Best Friend"
+    url: /best-friend/
+
+  - title: "Other Friends"
+    url: /friends/
+
+  - title: "About"
+    url: /about/
+  
+ 
+  
