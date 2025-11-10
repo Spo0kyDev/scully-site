@@ -16,7 +16,7 @@ I love chicken, squeaky toys, and long walks where I can practice ignoring distr
 
 - **Breed:** German Shepherd Mix  
 - **Age:** ~3 years  
-- **Weight:** ~55–60 lbs  
+- **Weight:** ~55-60 lbs  
 - **Coat:** Medium-length  
 - **Temperament:** Loyal, alert, goofy but focused
 
