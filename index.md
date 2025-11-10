@@ -20,10 +20,3 @@ I love chicken, squeaky toys, and long walks where I can practice ignoring distr
 - **Coat:** Medium-length  
 - **Temperament:** Loyal, alert, goofy but focused
 
----
-
-## Emergency Contact
-
-**Handler:** Sage  
-**Location:** San Antonio, TX  
-**Phone:** (956) 683-5545
